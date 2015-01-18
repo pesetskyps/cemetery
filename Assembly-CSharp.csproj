@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C3DA89E1-70C6-7D6C-993E-C8F831D35880}</ProjectGuid>
+	<ProjectGuid>{A3ADEE85-A1E4-4281-48E6-EA1B48B84B6A}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,17 +47,20 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\SurvivalTemplate\Scripts\AttackAnimation.cs" />
+     <Compile Include="Assets\SurvivalTemplate\Scripts\HitSound.cs" />
+     <Compile Include="Assets\SurvivalTemplate\Scripts\IHittable.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\MoveAnimation.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\Movement.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\MyGUI.cs" />
+     <Compile Include="Assets\SurvivalTemplate\Scripts\PlayerAttack.cs" />
      <None Include="Assets\Dark Future\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{518622B2-9050-A153-E465-3E4BD155181A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{6F7625D1-4142-2575-617D-82B0E08C2719}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{DDBF2BCB-11D1-BF7F-7A25-71D1DF05CBE4}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{D5911330-FF7A-1879-8818-17764699D578}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
