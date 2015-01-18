@@ -47,12 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\SurvivalTemplate\Scripts\AttackAnimation.cs" />
+     <Compile Include="Assets\SurvivalTemplate\Scripts\HitDamage.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\HitSound.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\IHittable.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\MoveAnimation.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\Movement.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\MyGUI.cs" />
      <Compile Include="Assets\SurvivalTemplate\Scripts\PlayerAttack.cs" />
+     <Compile Include="Assets\SurvivalTemplate\Scripts\Stats.cs" />
      <None Include="Assets\Dark Future\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
