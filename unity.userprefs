@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SurvivalTemplate\Scripts\AttackAnimation.cs">
+    <Files>
+      <File FileName="Assets\SurvivalTemplate\Scripts\MoveAnimation.cs" Line="18" Column="52" />
+      <File FileName="Assets\SurvivalTemplate\Scripts\AttackAnimation.cs" Line="18" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
