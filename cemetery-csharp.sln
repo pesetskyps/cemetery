@@ -5,6 +5,8 @@ Project("{DCCBEBC2-3A33-3D96-E564-25A95C575CA0}") = "cemetery", "Assembly-CSharp
 EndProject
 Project("{DCCBEBC2-3A33-3D96-E564-25A95C575CA0}") = "cemetery", "Assembly-CSharp-vs.csproj", "{A3ADEE85-A1E4-4281-48E6-EA1B48B84B6A}"
 EndProject
+Project("{DCCBEBC2-3A33-3D96-E564-25A95C575CA0}") = "cemetery", "Assembly-CSharp-Editor-vs.csproj", "{8A4AEEF0-C2E3-1D08-74AF-19CA722676EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{A3ADEE85-A1E4-4281-48E6-EA1B48B84B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3ADEE85-A1E4-4281-48E6-EA1B48B84B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3ADEE85-A1E4-4281-48E6-EA1B48B84B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4AEEF0-C2E3-1D08-74AF-19CA722676EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4AEEF0-C2E3-1D08-74AF-19CA722676EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4AEEF0-C2E3-1D08-74AF-19CA722676EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4AEEF0-C2E3-1D08-74AF-19CA722676EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-							GlobalSection(MonoDevelopProperties) = preSolution
+																													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

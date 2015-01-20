@@ -16,7 +16,6 @@ public class AttackAnimation : MonoBehaviour
 	{
 		if (Input.GetMouseButton (0)) {
 			anim.SetTrigger(AttackHash);
-			Debug.Log("attck");
 		}
 	}
 }
